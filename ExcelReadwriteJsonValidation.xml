@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="weather-comparison suite">
+
+<test name="ExcelreadwriteJsonParsing">
+
+
+    <classes>
+        <class name="ExcelWritewithComparison"/>
+        <class name="ExecuteApiCall"/>
+        <class name="ParsingJsonGsonCode"/>
+        <class name="ReadDataFromExcel"/>
+    </classes>
+</test>
+</suite>
+
+<!--
+
+        <class name="UiAutomation.qa.testcases.Templates.NavigationTemplate.MultiAssetBladeTest"/>
+        <class name="UiAutomation.qa.testcases.Templates.HubTemplate.HubHeroTest"/>
+
+<methods>
+<include name="WeatherComparatorTestCombined" />
+</methods>-->
